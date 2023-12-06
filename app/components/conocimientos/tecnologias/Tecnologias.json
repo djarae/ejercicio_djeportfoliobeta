@@ -1,0 +1,28 @@
+
+  [
+    {
+        "id":1,
+        "tecnologia":".Net",
+        "anos":3
+    },
+    {
+        "id":2,
+        "tecnologia":"React",
+        "anos":2
+    },
+    {
+        "id":3,
+        "tecnologia":"Angular",
+        "anos":2
+    },
+    {
+        "id":4,
+        "tecnologia":"SpringBoot",
+        "anos":2
+    },
+    {
+        "id":5,
+        "tecnologia":"SQL",
+        "anos":5
+    }
+]
