@@ -1,5 +1,5 @@
 import Portfolio from './portfolio/Portfolio.js';
-import PortfolioWS from './portfoliows/PortfolioWS.js';
+// import PortfolioWS from './portfoliows/PortfolioWS.js';
 import Espacios from '../../components/espacios/Espacios.js'
 
 function MisProyectos() {
@@ -14,11 +14,11 @@ function MisProyectos() {
         <Portfolio></Portfolio>
         </div>
         <Espacios cantidad="3"></Espacios>
-        <div class="container d-flex justify-content-center" >
+        {/* <div class="container d-flex justify-content-center" >
              <PortfolioWS></PortfolioWS>
         </div>
       
-       
+        */}
    
    
         
