@@ -1,5 +1,5 @@
 import Portfolio from './portfolio/Portfolio.js';
-import PortfolioWS from './portfoliows/portfolioWS.js';
+import PortfolioWS from './portfoliows/PortfolioWS.js';
 import Espacios from '../../components/espacios/Espacios.js'
 
 function MisProyectos() {
