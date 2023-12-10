@@ -1,15 +1,16 @@
 
 import AcercaDeMiTexto from './AcercaDeMi.json'
+import './acercademi.css';
+
 function AcercaDeMi() {
   return (
-    <div className="App">
+    <div class="container" >
       <header className="App-header">
-        <div  class="panel panel-default"   
-        style={{ justifyContent: "center", "width" : "50%", justifyContent:'center',  textAlign: 'center' }}>
-            <h1 style={{ fontSize: "5rem" }}>
+        <div  class="panel panel-default"    className="divAcercaDeMi">
+            <h1 className='h1TitutloAcercaDeMi'>
                 Acerca De Mi
             </h1>
-            <h1 style={{  fontSize: "1.5rem"}}>
+            <h1  className='h1ParrafoAcercaDeMi'>
               {AcercaDeMiTexto[0].texto}
             </h1>
         </div >

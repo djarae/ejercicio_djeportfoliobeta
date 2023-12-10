@@ -1,0 +1,27 @@
+.divAcercaDeMi {
+  /* border: red;
+  background-color: #FFFFFF;
+  height: 100px;
+  -moz-border-radius:75px;
+  -webkit-border-radius: 75px; */
+  /* width: 100px; */
+
+  justify-Content: center;
+  text-Align: center ;
+
+  width : 50%;
+
+
+}
+
+.h1TitutloAcercaDeMi{
+  font-Size: 5rem;
+  
+}
+
+.h1ParrafoAcercaDeMi{
+  font-Size: 1.25rem;
+  
+}
+
+

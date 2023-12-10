@@ -1,15 +1,28 @@
-import Proyecto from './proyecto/Proyecto.js';
+import Portfolio from './portfolio/Portfolio.js';
+import PortfolioWS from './portfoliows/PortfolioWS.js';
+import Espacios from '../../components/espacios/Espacios.js'
 
 function MisProyectos() {
   return (
-    <div  class="panel panel-default" className="App"
-    style={{ justifyContent: "center", "width" : "50%", justifyContent:'center',  textAlign: 'center' }}>
-        <h1 style={{ fontSize: "4rem" }}>
-            Mis Proyectos
-        </h1>
-        <Proyecto></Proyecto>
-    </div>
-
+    <div class="container" >
+        <p class="h1 row justify-content-center" > 
+            Proyectos
+        </p>
+        
+        
+        <div class="container d-flex justify-content-center" >
+        <Portfolio></Portfolio>
+        </div>
+        <Espacios cantidad="3"></Espacios>
+        <div class="container d-flex justify-content-center" >
+             <PortfolioWS></PortfolioWS>
+        </div>
+      
+       
+   
+   
+        
+  </div>
 
   );
 }

@@ -14,7 +14,6 @@ function Tecnologias() {
         <td>{ConocimientosJson[i].anos}</td>
      </tr>)
     }
-
     return(
       tecnologias
     );
