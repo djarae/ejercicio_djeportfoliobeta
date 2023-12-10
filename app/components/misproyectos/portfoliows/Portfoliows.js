@@ -1,4 +1,4 @@
-import PortfolioWSTexto from './Portfoliows.json';
+import PortfolioWSTexto from './portfoliows.json';
 function PortfolioWS() {
   return (
   <div class="container col-6 rounded bg-primary  text-dark  row justify-content-left" >

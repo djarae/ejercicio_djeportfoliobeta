@@ -1,4 +1,4 @@
-import PortfolioTexto from './Portfolio.json';
+import PortfolioTexto from './portfolio.json';
 function Portfolio() {
   return (
   <div class="container col-6 rounded bg-primary  text-dark  row justify-content-rigth" >
