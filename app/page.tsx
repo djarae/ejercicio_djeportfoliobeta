@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 //Imports internos
 import './App.css';
-import Principal from './components/Principal/Principal.js';
+import Principal from './components/principal/Principal.js';
 
 function App() {
   return (
