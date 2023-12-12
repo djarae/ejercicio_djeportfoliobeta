@@ -6,7 +6,7 @@ function PortfolioWS() {
             
                Portfolio - Microservicio
         </p>
-        <p h1 row justify-content-center >
+        <p class = "h1 row justify-content-center" >
                 {PortfolioWSTexto[0].texto}
         </p>
 

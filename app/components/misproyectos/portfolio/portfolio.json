@@ -2,6 +2,6 @@
 [
     {
         "id":0,
-        "texto":"Pese a ser un portfolio , en el caso de un desarrollador el mismo también puede contar como un proyecto. Fue creado utilizando React JS, Bootstrap, html , css y JS"
+        "texto":"Proyecto portfolio creado con el fin de listar los proyectos realizados y dar información de los mismos. Fue creado utilizando React JS, Bootstrap 5, html , css y JS(ES5) y MySql"
     }
 ]
