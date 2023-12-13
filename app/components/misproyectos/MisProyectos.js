@@ -8,8 +8,7 @@ function MisProyectos() {
         <p class="h1 row justify-content-center" > 
             Proyectos
         </p>
-        
-        
+        <Espacios cantidad="3"></Espacios>
         <div class="container d-flex justify-content-center" >
         <Portfolio></Portfolio>
         </div>

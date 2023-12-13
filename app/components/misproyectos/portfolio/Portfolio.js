@@ -5,7 +5,7 @@ function Portfolio() {
         <p class="h1 row justify-content-center text-light" > 
              Portfolio - React JS
         </p>
-        <h1 class="display-6 row justify-content-rigth text-light fs-3"   >
+        <h1 class="display-6 row justify-content-rigth text-light fs-4"   >
                 {PortfolioTexto[0].texto}
         </h1>
 

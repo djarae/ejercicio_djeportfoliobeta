@@ -3,7 +3,7 @@ import Presentacion from '../presentacion/Presentacion.js';
 import AcercaDeMi from '../acercademi/AcercaDeMi';
 import Conocimientos from '../conocimientos/Conocimientos.js';
 import MisProyectos from '../misproyectos/MisProyectos.js';
-import Retroalimentacion from '../retroalimentacion/Retroalimentacion.js';
+import Retroalimentacion from '../retroalimentacion/Retroalimentacion.jsx';
 import Espacios from '../espacios/Espacios.js';
 
 
@@ -17,9 +17,9 @@ function Principal() {
         <Conocimientos></Conocimientos>
         <Espacios cantidad="50"></Espacios>
         <MisProyectos></MisProyectos>
-        <Espacios cantidad="50"></Espacios>
-        <Retroalimentacion></Retroalimentacion>
         <Espacios cantidad="30"></Espacios>
+        {/* <Retroalimentacion></Retroalimentacion>
+        <Espacios cantidad="30"></Espacios> */}
     </body >
    </div>
   );
