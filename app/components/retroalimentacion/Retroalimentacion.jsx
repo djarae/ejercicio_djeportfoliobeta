@@ -1,19 +1,31 @@
 "use client"
 
+import LlamadaApi from './LLamadaApi.jsx'
 import Espacios from '../espacios/Espacios.js'
+import React, { useState, useEffect } from 'react';
+
+
+
+// import axios from 'axios';
+
 
 function Retroalimentacion() {
+  console.log("Ejecutamos llamda api")
+    const [data,setData] = useState(null);
+    useEffect(()=>{
+        fetch("http://localhost:5000/")
+        .then((response)=>response.json())
+        .then((data)=> setData(data))
+        .then(console.log("funciono"));
+    },[]);
 
-function enviarData(){
-  console.log("HI")
+  function enviarData(){
+   console.log("HI")
+   let numero = LlamadaApi();
+   console.log(numero)
+ }
 
-
-}
- 
-
-
-  return (
-
+return (
 <div class="container row justify-content-center" >
         <p class="h1 row justify-content-center" > 
             Retroalimentacion
@@ -29,10 +41,12 @@ function enviarData(){
               </h1>
               <input  id="inputRetroalimentacion" class="form-control" ></input>
               <Espacios cantidad="5"></Espacios>
-
-                 <button  onClick={() => enviarData()} variant="text" >ENVIAR</button>
-              
+                  <LlamadaApi></LlamadaApi>
               <Espacios  color="secondary" variant="contained" cantidad="5"></Espacios>
+
+             
+    
+       
         </div>
   </div>
 

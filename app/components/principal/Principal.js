@@ -1,6 +1,6 @@
 // import './App.css';
 import Presentacion from '../presentacion/Presentacion.js';
-import AcercaDeMi from '../acercademi/AcercaDeMi';
+import AcercaDeMi from '../acercademi/AcercaDeMi.js';
 import Conocimientos from '../conocimientos/Conocimientos.js';
 import MisProyectos from '../misproyectos/MisProyectos.js';
 import Retroalimentacion from '../retroalimentacion/Retroalimentacion.jsx';
@@ -18,8 +18,8 @@ function Principal() {
         <Espacios cantidad="50"></Espacios>
         <MisProyectos></MisProyectos>
         <Espacios cantidad="30"></Espacios>
-        {/* <Retroalimentacion></Retroalimentacion>
-        <Espacios cantidad="30"></Espacios> */}
+        <Retroalimentacion></Retroalimentacion>
+        <Espacios cantidad="30"></Espacios>
     </body >
    </div>
   );
