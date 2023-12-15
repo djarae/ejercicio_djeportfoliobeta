@@ -38,19 +38,36 @@ function Retroalimentacion() {
     
 
     function conectar (){
-
         console.log("click")
+
+
+       
+        datajson = {
+            "employees":[
+              {"firstName":"John", "lastName":"Doe"},
+              {"firstName":"Anna", "lastName":"Smith"},
+              {"firstName":"Peter", "lastName":"Jones"}
+            ]
+            }
+
         const requestOptions = {
           mode: 'no-cors',
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email: 'a@a.es' , password: '1234123' })
+          headers: { 'Content-Type': 'application/json',
+          'Conten-length' : '221'},
+          body: datajson
       };
       fetch('http://localhost:5000/retro', requestOptions)
-          .then(response => response.json())
-          .then(result => console.log(result) )
-          .then(console.log("funcioino elk post en front"));
+
+
+
+
+
       }
+
+
+      
+
 
 
     
