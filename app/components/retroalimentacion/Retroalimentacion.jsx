@@ -40,24 +40,20 @@ function Retroalimentacion() {
     function conectar (){
         console.log("click")
 
-
-       
-       let  datajson = {
-            "employees":[
-              {"firstName":"John", "lastName":"Doe"},
-              {"firstName":"Anna", "lastName":"Smith"},
-              {"firstName":"Peter", "lastName":"Jones"}
-            ]
-            }
-
-        const requestOptions = {
-          mode: 'no-cors',
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json',
-          'Conten-length' : '221'},
-          body: datajson
-      };
-      fetch('http://localhost:5000/retro', requestOptions)
+        fetch("http://localhost:5000/retro", {
+          method: "POST",
+          mode: 'cors', 
+          headers: {
+            "Content-Type": "application/json",
+          },
+      
+          body: JSON.stringify({
+            user: { id: 1 },
+            title: 'El pepe2 : la venganza del pepe',
+            body: 'saquenme de latam',
+          }),
+        });
+        return 0;
 
 
 
