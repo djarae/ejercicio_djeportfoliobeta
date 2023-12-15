@@ -24,6 +24,9 @@ function Retroalimentacion() {
     },[]);
    
     function conectar (){
+        let nombreVar = nombreHook.val
+        let consejoVar =  consejoHook.val
+
         fetch("http://localhost:5000/retro", {
           method: "POST",
           mode: 'cors', 
@@ -31,20 +34,12 @@ function Retroalimentacion() {
             "Content-Type": "application/json",
           },
           body: JSON.stringify({
-            nombre: nombreHook,
-            consejo: consejoHook,
+            nombre: nombreVar,
+            consejo: consejoVar,
           }),
         });
         return 0;
       }
-
-
-    
-
-    
-      
-    
-     
 
 return (
 <div class="container row justify-content-center" >
