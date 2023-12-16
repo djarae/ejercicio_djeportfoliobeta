@@ -6,6 +6,9 @@ function Retroalimentacion() {
 
     const [nombreHook,setNombreHook] = useState(" ");
     const [consejoHook,setConsejoHook] = useState(" ");
+    const apiURL= "http://localhost:5000/retro"//API URL local
+    // const apiURL= "http://localhost:5000/retro"//API URL Cloud
+  
 
     function actuNombreHook(val){
         setNombreHook(val);console.log(nombreHook)
@@ -16,18 +19,18 @@ function Retroalimentacion() {
      }
 
     
-    useEffect(()=>{
-        fetch("http://localhost:5000/")
-        .then((response)=>response.json())
-        .then((data)=> setData(data))
-        .then(console.log("funciono recargar el coso"));
-    },[]);
+    // useEffect(()=>{
+    //     fetch("http://localhost:5000/")
+    //     .then((response)=>response.json())
+    //     .then((data)=> setData(data))
+    //     .then(console.log("funciono recargar el coso"));
+    // },[]);
    
     function conectar (){
         let nombreVar = nombreHook.val
         let consejoVar =  consejoHook.val
 
-        fetch("http://localhost:5000/retro", {
+        fetch(apiURL, {
           method: "POST",
           mode: 'cors', 
           headers: {
