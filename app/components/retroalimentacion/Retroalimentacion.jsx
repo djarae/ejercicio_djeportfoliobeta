@@ -65,7 +65,7 @@ return (
               </input>
            
               <Espacios cantidad="5"></Espacios>
-                <button onClick={conectar}>CONECTAR</button>
+                <button onClick={conectar}>ENVIAR</button>
               <Espacios  color="secondary" variant="contained" cantidad="5"></Espacios>
 
         </div>
