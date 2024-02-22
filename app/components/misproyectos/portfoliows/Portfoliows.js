@@ -9,8 +9,6 @@ function PortfolioWS() {
         <p class = "h1 row justify-content-center" >
                 {PortfolioWSTexto[0].texto}
         </p>
-
-
   </div>
   );
 }

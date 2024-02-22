@@ -6,7 +6,6 @@ function Tecnologias() {
   function getTecnologias(){
     let tecnologias = [];
     for (let i=0;i<ConocimientosJson.length;i++){
-    
       tecnologias.push(  
       <tr>
         <td>{ConocimientosJson[i].id}</td>

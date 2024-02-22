@@ -6,9 +6,9 @@ function Retroalimentacion() {
 
     const [nombreHook,setNombreHook] = useState(" ");
     const [consejoHook,setConsejoHook] = useState(" ");
-    const apiURL= "http://localhost:5000/retro"//API URL local
-    // const apiURL= "https://apiportfolioflask-dev-ejmr.3.us-1.fl0.io/retro"//API URL Cloud
-  
+    //const apiURL= "http://localhost:5000/retro"//API URL local
+    const apiURL= "https://apiportfolioflaskdjarae.onrender.com/retro"//API URL Cloud
+    // const apiURL= "http://localhost:8080//retro" //Api URL Docker local
 
     function actuNombreHook(val){
         setNombreHook(val);console.log(nombreHook)
